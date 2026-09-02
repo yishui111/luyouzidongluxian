@@ -47,3 +47,9 @@
 - 改动代码后：同步更新 README.md 与 DEPLOY.md；新增景点在 data/attractions.js 按格式追加
 - 提交：`git add . && git commit -m "..." && git push origin main`
 - 中文文档用 UTF-8；`.bat` 纯 ASCII + CRLF + 无 BOM
+---
+### 关键点（2026-09-02 上传整理补充）
+- 纯静态：index.html + css/js + data/*.js；无依赖/无密钥/无后端
+- 加景点改 data/attractions.js（名称/拼音/经纬度）；里程为直线估算，README 已声明
+- start.bat/stop.bat 为纯静态占位（stop 无进程）；预览图.png 是 README 插图勿删
+- README 徽章用户名 yishui111 已替换；克隆后双击 index.html 即用
