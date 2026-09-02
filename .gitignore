@@ -1,0 +1,13 @@
+# system
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# logs / temp
+*.log
+tmp/
+
+# keep media: preview screenshot is intentional (预览图.png)
