@@ -20,7 +20,7 @@
 | start.bat / stop.bat | Windows 启停（纯静态，stop 无实际进程） |
 
 - 技术栈：原生 HTML/CSS/JS + 数据 JS；无依赖、无构建
-- 启动：双击 index.html，或 `python -m http.server 8000` 后访问 http://localhost:8000
+- 启动：双击 index.html，或 `python -m http.server 8077` 后访问 http://localhost:8077
 - 验证：搜索「喀纳斯」能联想上地图 → 点「北疆经典」生成路线 → 播放/改色正常
 
 ## 3. 本仓库 = GitHub 公开裁剪版（重要边界）

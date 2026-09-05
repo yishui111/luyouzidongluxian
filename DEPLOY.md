@@ -22,7 +22,7 @@ cd luyouzidongluxian
 | 方式 | 操作 | 适用场景 |
 | ---- | ---- | ---- |
 | 直接打开 | 双击 `index.html` | 本机临时用 |
-| 静态服务器 | `python -m http.server 8000` 后访问 http://localhost:8000 | 局域网分享 |
+| 静态服务器 | `python -m http.server 8077` 后访问 http://localhost:8077 | 局域网分享 |
 | Windows 一键 | 双击 `start.bat` | 自动打开默认浏览器 |
 
 ## 4. 验证
@@ -33,7 +33,7 @@ cd luyouzidongluxian
 
 - **双击没反应/空白**：换 Chrome/Edge 打开；确认文件未损坏（重新 git pull）。
 - **端口被占用**：换端口，如 `python -m http.server 8080`。
-- **想分享给同一局域网的人**：让对方访问 `http://你电脑的IP:8000`（需防火墙放行）。
+- **想分享给同一局域网的人**：让对方访问 `http://你电脑的IP:8077`（需防火墙放行）。
 
 ## 6. 更新约定
 
